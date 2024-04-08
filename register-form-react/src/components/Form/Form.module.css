@@ -1,0 +1,28 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.4rem;
+}
+p {
+  margin: 0;
+}
+select {
+  overflow: hidden;
+  background-color: rgb(208, 248, 255);
+}
+option {
+  color: rgb(68, 68, 68);
+  font-weight: 600;
+  font-size: 1rem;
+}
+option:checked {
+  color: rgb(39, 83, 134);
+}
+.experience {
+  display: flex;
+  gap: 0.5rem;
+  font-weight: 300;
+  font-size: 1.2rem;
+  align-items: center;
+}

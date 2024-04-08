@@ -1,8 +1,14 @@
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: grey;
+  background: linear-gradient(
+    76deg,
+    rgb(207, 130, 243) 0%,
+    rgb(207, 255, 175) 100%
+  );
+  font-family: "Oswald", sans-serif;
+  align-items: center;
+  justify-content: center;
 }
