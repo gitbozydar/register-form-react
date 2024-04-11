@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: 300;
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
+  gap: 0.2rem;
+}
+input {
+  border-radius: 0.8rem;
+  border: none;
+  padding: 0.5rem;
+}
