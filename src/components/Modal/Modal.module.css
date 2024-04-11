@@ -29,3 +29,7 @@ li {
 h1 {
   font-size: 3rem;
 }
+.technologies {
+  list-style-type: square;
+  margin-left: 1.5rem;
+}

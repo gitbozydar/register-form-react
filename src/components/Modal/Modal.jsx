@@ -43,9 +43,11 @@ const Modal = ({ data }) => {
           <p>Type: {eduMethod}</p>
           <p>
             Technologies:{" "}
-            {technologies.map((technology, index) => {
-              return <span key={index}>{technology}</span>;
-            })}
+            <ul className={styles.technologies}>
+              {technologies.map((technology, index) => {
+                return <li key={index}>{technology}</li>;
+              })}
+            </ul>
           </p>
         </div>
         <div className={styles.userInfoWrapper}>
