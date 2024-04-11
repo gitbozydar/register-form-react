@@ -5,7 +5,6 @@ function App() {
   return (
     <>
       <div className={styles.wrapper}>
-        <h1>JOIN US !</h1>
         <Form />
       </div>
     </>
