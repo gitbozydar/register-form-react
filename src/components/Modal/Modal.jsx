@@ -41,14 +41,12 @@ const Modal = ({ data }) => {
         <div className={styles.userInfoWrapper}>
           <h2>Course specification:</h2>
           <p>Type: {eduMethod}</p>
-          <p>
-            Technologies:{" "}
-            <ul className={styles.technologies}>
-              {technologies.map((technology, index) => {
-                return <li key={index}>{technology}</li>;
-              })}
-            </ul>
-          </p>
+          <p>Technologies: </p>
+          <ul className={styles.technologies}>
+            {technologies.map((technology, index) => {
+              return <li key={index}>{technology}</li>;
+            })}
+          </ul>
         </div>
         <div className={styles.userInfoWrapper}>
           <h2>Curriculum Vitae:</h2>
